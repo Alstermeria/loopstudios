@@ -1,0 +1,296 @@
+body {
+  font-size: 15px;
+  font-family: "Alata", sans-serif;
+  color: hsl(0, 0%, 0%);
+  /* font-family: "Josefin Sans", sans-serif; */
+}
+
+header {
+  background: url("/images/desktop/image-hero.jpg") no-repeat center top / cover;
+  padding-bottom: 250px;
+}
+.container-fluid {
+  padding: 50px 20px 70px 30px;
+}
+
+.text-left h1 {
+  padding: 30px;
+  font-size: 60px;
+  color: hsl(0, 0%, 100%);
+  border: 1px solid hsl(0, 0%, 100%);
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+.nav-link,
+.navbar-brand {
+  color: hsl(0, 0%, 100%);
+}
+
+.navbar-brand {
+  margin-left: 9%;
+  font-size: 40px;
+}
+
+.navbar-nav {
+  position: relative;
+  left: 58%;
+}
+
+.second-block {
+  margin: 8%;
+}
+.interactive-img {
+  height: auto;
+  width: 180%;
+  max-width: 720px;
+}
+
+.interactive-text {
+  position: relative;
+  top: 240px;
+  left: 90px;
+  padding: 70px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.interactive-text h1 {
+  font-family: "Josefin Sans", sans-serif;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.creat-second {
+  margin-bottom: 5%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.creation {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.create-bt {
+  font-size: 15px;
+  background-color: white;
+  padding: 7px 50px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.card {
+  margin-bottom: 20px;
+  border: none;
+}
+
+.card-title {
+  position: relative;
+  top: 400px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 35px;
+  padding: 0 35px;
+  text-transform: uppercase;
+}
+
+.footer-bg {
+  margin-top: 10%;
+  background-color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 55%);
+}
+.footer-bg h1 {
+  margin-left: 30px;
+}
+
+div.footer-page li {
+  display: inline;
+}
+
+div.footer-page a {
+  text-decoration: none;
+  color: hsl(0, 0%, 55%);
+  margin-right: 5px;
+}
+.left-footer {
+  margin-top: 30px;
+}
+
+.right-footer {
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.attribution {
+  margin-top: 30px;
+}
+
+/* 1200px
+992px
+768px
+480px
+320px */
+
+@media screen and (max-width: 1100px) {
+  .navbar-nav {
+    position: relative;
+    left: 50%;
+  }
+
+  .second-block {
+    margin: 1%;
+  }
+
+  .interactive-text {
+    position: relative;
+    top: 0;
+    left: 200px;
+    padding: 70px;
+  }
+
+  .text-left h1 {
+    padding: 10px;
+    font-size: 55px;
+  }
+
+  .card-title {
+    position: relative;
+    top: 270px;
+    font-size: 25px;
+    padding: 0 15px;
+  }
+}
+@media screen and (max-width: 993px) {
+  .interactive-img {
+    max-width: 670px;
+    display: block;
+    margin: auto;
+  }
+
+  .text-left h1 {
+    padding: 10px;
+    font-size: 55px;
+  }
+
+  .card-title {
+    position: relative;
+    top: 270px;
+    font-size: 25px;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .navbar-nav {
+    position: relative;
+    left: 0;
+  }
+
+  .second-block {
+    margin: 2%;
+  }
+
+  .interactive-img {
+    max-width: 470px;
+  }
+
+  .interactive-text {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 70px;
+  }
+  .card-title {
+    position: relative;
+    top: 500px;
+    font-size: 25px;
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .text-left h1 {
+    font-size: 60px;
+  }
+  .interactive-text {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .interactive-text h1 {
+    font-size: 30px;
+  }
+
+  .interactive-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+  }
+
+  .card img {
+    object-fit: cover;
+    width: 460px;
+    height: 200px;
+  }
+
+  .card-title {
+    position: relative;
+    top: 120px;
+    font-size: 25px;
+    padding: 0 15px;
+  }
+
+  div.footer-page a {
+    margin-right: 0;
+  }
+
+  .right-footer {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .creation {
+    font-size: 30px;
+  }
+
+  .text-left h1 {
+    font-size: 35px;
+  }
+  .interactive-text {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .interactive-text h1 {
+    font-size: 30px;
+  }
+
+  .interactive-img {
+    max-width: 300px;
+    display: block;
+    margin: auto;
+  }
+
+  .card img {
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+  }
+
+  .card-title {
+    position: relative;
+    top: 120px;
+    font-size: 25px;
+    padding: 0 15px;
+  }
+
+  .left-footer {
+    margin-top: 0;
+  }
+
+  .right-footer {
+    margin-left: 30px;
+    margin-top: 0;
+  }
+}
