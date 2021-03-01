@@ -15,6 +15,7 @@ header {
 
 .text-left h1 {
   padding: 30px;
+  margin: 30px;
   font-size: 60px;
   color: hsl(0, 0%, 100%);
   border: 1px solid hsl(0, 0%, 100%);
@@ -38,8 +39,10 @@ header {
 }
 
 .second-block {
-  margin: 8%;
+  margin-top: 100px;
+  margin-bottom: 200px;
 }
+
 .interactive-img {
   height: auto;
   width: 180%;
@@ -129,7 +132,7 @@ div.footer-page a {
 480px
 320px */
 
-@media screen and (max-width: 1100px) {
+@media (max-width: 1199.98px) {
   .navbar-nav {
     position: relative;
     left: 50%;
@@ -158,7 +161,7 @@ div.footer-page a {
     padding: 0 15px;
   }
 }
-@media screen and (max-width: 993px) {
+@media (max-width: 991.98px) {
   .interactive-img {
     max-width: 670px;
     display: block;
@@ -166,7 +169,6 @@ div.footer-page a {
   }
 
   .text-left h1 {
-    padding: 10px;
     font-size: 55px;
   }
 
@@ -178,18 +180,18 @@ div.footer-page a {
   }
 }
 
-@media screen and (max-width: 769px) {
+@media (max-width: 767.98px) {
   .navbar-nav {
     position: relative;
     left: 0;
   }
 
   .second-block {
-    margin: 2%;
+    margin: 70px;
   }
 
   .interactive-img {
-    max-width: 470px;
+    max-width: 570px;
   }
 
   .interactive-text {
@@ -200,18 +202,24 @@ div.footer-page a {
   }
   .card-title {
     position: relative;
-    top: 500px;
+    top: 120px;
     font-size: 25px;
     padding: 0 15px;
   }
+  .card img {
+    object-fit: cover;
+    width: 560px;
+    height: 200px;
+  }
+  .card {
+    width: 560px;
+  }
 }
 
-@media screen and (max-width: 481px) {
+@media (max-width: 575.98px) {
   .text-left h1 {
-    font-size: 60px;
   }
   .interactive-text {
-    padding: 20px;
     margin-top: 20px;
   }
 
@@ -219,16 +227,25 @@ div.footer-page a {
     font-size: 30px;
   }
 
+  .second-block {
+    margin: 0;
+  }
+  header {
+    margin-bottom: 20px;
+  }
+
   .interactive-img {
-    max-width: 350px;
-    display: block;
     margin: auto;
+    width: 480px;
   }
 
   .card img {
     object-fit: cover;
     width: 460px;
     height: 200px;
+  }
+  .card {
+    width: 460px;
   }
 
   .card-title {
@@ -249,7 +266,7 @@ div.footer-page a {
   }
 }
 
-@media screen and (max-width: 321px) {
+@media (max-width: 480px) {
   .creation {
     font-size: 30px;
   }
@@ -274,8 +291,11 @@ div.footer-page a {
 
   .card img {
     object-fit: cover;
-    width: 300px;
+    width: 360px;
     height: 200px;
+  }
+  .card {
+    width: 360px;
   }
 
   .card-title {
